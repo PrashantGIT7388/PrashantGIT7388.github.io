@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ab639a8.css",
-    "main.js": "/static/js/main.f2082cba.js",
+    "main.css": "/static/css/main.d20a5e53.css",
+    "main.js": "/static/js/main.0fe61431.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/fw21_1203-Hanumat-Sharan-Resume.pdf": "/static/media/fw21_1203-Hanumat-Sharan-Resume.267786342c1cb5b74eb9.pdf",
     "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
     "index.html": "/index.html",
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.8ab639a8.css.map": "/static/css/main.8ab639a8.css.map",
-    "main.f2082cba.js.map": "/static/js/main.f2082cba.js.map",
+    "main.d20a5e53.css.map": "/static/css/main.d20a5e53.css.map",
+    "main.0fe61431.js.map": "/static/js/main.0fe61431.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ab639a8.css",
-    "static/js/main.f2082cba.js"
+    "static/css/main.d20a5e53.css",
+    "static/js/main.0fe61431.js"
   ]
 }

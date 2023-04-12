@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9f2f30fc.css",
-    "main.js": "/static/js/main.86038a6e.js",
+    "main.js": "/static/js/main.edd4c721.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/fw21_0565-Prashant-Yadav-Resume.pdf": "/static/media/fw21_0565-Prashant-Yadav-Resume.6a1c470e2c3bba7db15f.pdf",
     "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
@@ -9,11 +9,11 @@
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.9f2f30fc.css.map": "/static/css/main.9f2f30fc.css.map",
-    "main.86038a6e.js.map": "/static/js/main.86038a6e.js.map",
+    "main.edd4c721.js.map": "/static/js/main.edd4c721.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f2f30fc.css",
-    "static/js/main.86038a6e.js"
+    "static/js/main.edd4c721.js"
   ]
 }

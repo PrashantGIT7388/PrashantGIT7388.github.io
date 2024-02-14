@@ -1,13 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+
+  
+  font-family: 'Poppins', sans-serif;
+ 
+  
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+:root{
+  --color-font:#4761be ;
+  --color-bg:var(--color-font);
+  --color-second:var(--color-font);
+  --color-text:white;
+  --color-heading:#242d49;
+}
+::-webkit-scrollbar{
+  width:7px;
+ 
+}
+::-webkit-scrollbar-track{
+  background-color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-bg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  scroll-behavior:smooth;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 0.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color:var(--color-heading);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--color-bg) 0px 10px 20px, var(--color-bg) 0px 6px 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+  background-color: var(--color-bg);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ 
+  transition: 0.5ms;
+  color:white
+}
+
+section{
+ 
+   margin:0 auto; 
+  /* margin-top:100px; */
+  padding-top:70px;
+}
+#footer{
+ margin-top: 30px;
+  padding: 10px;
+  height:40px;
+  background-color: var(--color-bg);
+  color:white;
+
+  text-align: center;
+  margin: auto;
+  align-items: center;
+
+}
+#footer div{
+
+  margin:auto;
 }

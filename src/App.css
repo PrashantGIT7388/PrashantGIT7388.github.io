@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -12,7 +10,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
 
+@media all and (min-width: 320px) and (max-width: 767px) {
+  
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -8,9 +8,9 @@ import NavDrawer from "./NavDrawer";
 
 const TopNavbar = () => {
  
-  const handleResumeShow=()=>{
-  window.open(`https://drive.google.com/file/d/1_UxYWbjSqUUXLKOuoqWWw_3-EXMsdU15/view?usp=share_link=sharing`)
-}
+//   const handleResumeShow=()=>{
+//   window.open(`https://drive.google.com/file/d/1_UxYWbjSqUUXLKOuoqWWw_3-EXMsdU15/view?usp=share_link=sharing`)
+// }
   const [current, setCurrent] = useState("#home");
   // const [fix,setFix]=useState(false)
   
@@ -28,10 +28,10 @@ const TopNavbar = () => {
       <div style={{height:"10vh" ,  }}  id="nav-menu"
             >
         <a  href="https://github.com/PrashantGIT7388" style={{  align: "center", padding: "4px" ,color:'#4761be' ,textDecoration:'none' ,fontSize:'30px',fontStyle:'sans-riff'}}>
-          <div  style={{ marginLeft: "40px", align: "center", padding: "4px" ,color:'#4761be' ,textDecoration:'none' ,fontFamily:'system-ui', fontSize:'40px'}}>
+          <div  style={{ marginLeft: "40px", align: "center", padding: "4px" ,color:'#4761be' ,textDecoration:'none' ,fontFamily:'cursive', fontSize:'40px'}}>
           {/* <img width={"50px"} src={``} alt="" style={{color:'#4761be'}}/> */}
          
-         Prashant
+         <span>..</span>Prashat<span>..</span>
         </div>
         </a>
 
@@ -73,12 +73,9 @@ const TopNavbar = () => {
               </h4>
             </a>{" "}
           </div>
-          <div className="nav-link resume" onClick={() => setCurrent("#resume")}>
 
-{/* 
-          <span  id="resume-button-1">
-                    <a  id="resume-link-1"    href={resumeFile}  download="Prashant-Yadav-Resume" onClick={window.open('https://drive.google.com/file/d/1_UxYWbjSqUUXLKOuoqWWw_3-EXMsdU15/view?usp=share_link=sharing')}>Resume</a>
-                </span> */}
+
+          {/* <div className="nav-link resume" onClick={() => setCurrent("#resume")}>
            
             <span id="resume-button-1" onClick={handleResumeShow}>
             <a 
@@ -95,7 +92,7 @@ const TopNavbar = () => {
             </a>
             </span>{" "}
           </div>
-         
+          */}
         </div>
         <div id="sidebar">
           <NavDrawer/>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../Style/home.css";
-import resumeFile from "../Resume/fw21_0565-Prashant-Yadav-Resume.pdf"
+// import resumeFile from "../Resume/fw21_0565-Prashant-Yadav-Resume.pdf"
 
 import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
@@ -8,9 +8,9 @@ import { Button } from "@mui/material";
 import Aos from "aos";
 import { Link } from "react-router-dom";
 import { color } from "@chakra-ui/react";
-const handleResumeShow=()=>{
-  window.open(`https://drive.google.com/file/d/1_UxYWbjSqUUXLKOuoqWWw_3-EXMsdU15/view?usp=share_link=sharing`)
-}
+// const handleResumeShow=()=>{
+//   window.open(`https://drive.google.com/file/d/1_UxYWbjSqUUXLKOuoqWWw_3-EXMsdU15/view?usp=share_link=sharing`)
+// }
 
 const current="";
 const Home = () => {
@@ -42,7 +42,7 @@ const Home = () => {
           id="name"
         >
           <div id='user-detail-name'>
-          Prashant Yadav
+          Prashant Yadav 
           </div>
           
         </h1>
@@ -68,10 +68,13 @@ const Home = () => {
         </h1>
 
         <h1 id="user-detail-intro">
-        Ambitious and hardworking aspiring Full Stack Web Developer with proficiency in React Js and Java Script. Problem-solving mindset,1200+ hours of hands-on experience in coding. 
+        Ambitious and hardworking aspiring Full Stack Web Developer with proficiency in React Js and Node. Problem-solving mindset,1200+ hours of hands-on experience in coding. 
         </h1>
 
-        <span id="resume-button-2" onClick={handleResumeShow}>
+
+{/* Resume button commented */}
+
+        {/* <span id="resume-button-2" onClick={handleResumeShow}>
             <a  
             style={{padding:'10px',background:'rgb(71,97,190)',borderRadius:'8px' , color:'white',textDecoration:'none'}}
             id="resume-link-2"
@@ -80,14 +83,13 @@ const Home = () => {
              target="_blank"
              rel="noreferrer"
             >
-             {/* <h4 id="resumenav" className={current === "#resume" ? "activemain" : null}>
-                
-#4761be
-                Resume
-              </h4>    */}
                   Resume                                                          
             </a>
-            </span>{" "}
+            </span>{" "} */}
+
+
+
+
         <div id="homesocial">
           <a target="blank" href="">
             {" "}

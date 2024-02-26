@@ -39,7 +39,7 @@ const Skills = () => {
 const postman=`https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png`
   const [tech, setTech] = React.useState("all");
 const thunder=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIDzWtmwdZjtI-bZdaa6yiCa61joruKiuoriweCzkTUA&s`
-  const kitten=`https://akveo.github.io/react-native-ui-kitten/docs/assets/playground-build/static/media/icon.a78e4b51.png`
+  const kitten=`https://i.postimg.cc/YqgDwnR7/image.png`
 
   const skillsarr = [
     { img: html, name: "HTML" },

@@ -81,9 +81,9 @@ const ProjectCard = ({ arr }) => {
                   {"   "}
                 </button>
               </a>
-              <a className="project-deployed-link" target={"blank"} href={el.dplink}><button>
+              {/* <a className="project-deployed-link" target={"blank"} href={el.dplink}><button>
                 <i class="fa-solid fa-video"></i>
-              </button></a>
+              </button></a> */}
             </div>
           </div>
         </div>

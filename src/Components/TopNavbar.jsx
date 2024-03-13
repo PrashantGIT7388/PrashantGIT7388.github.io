@@ -31,7 +31,7 @@ const TopNavbar = () => {
           <div  style={{ marginLeft: "40px", align: "center", padding: "4px" ,color:'#4761be' ,textDecoration:'none' ,fontFamily:'cursive', fontSize:'40px'}}>
           {/* <img width={"50px"} src={``} alt="" style={{color:'#4761be'}}/> */}
          
-         <span>..</span>Prashat<span>..</span>
+         <span>..</span>Prashant<span>..</span>
         </div>
         </a>
 
